@@ -31,7 +31,7 @@ services:
       - grafana_data:/var/lib/grafana
 
   node-exporter:
-    image: prom/node-exporter:v1.8.1
+    image: prom/node-exporter:v1.10.2
     container_name: node-exporter
     restart: unless-stopped
     pid: host
